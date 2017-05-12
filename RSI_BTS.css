@@ -1,0 +1,47 @@
+p {
+	font-family: 'Gentium Book Basic', serif;
+	text-align: justify;
+}
+
+.chapter {
+	font-family: 'Archivo Black', sans-serif;
+	text-align:center;
+}
+
+.dateline {
+	font-size: 1.25em;
+	font-style:italic;
+}
+
+.chapterheader {
+	position: relative;
+}
+
+.booknumber {
+	position: absolute;
+	text-align: left;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+.booktitle {
+	position: relative;
+	text-align: right;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+.chapterbook {
+	font-size: 1.5em;
+}
+
+.chaptertitle {
+	font-size: 1.25em;
+}
+
+.break:after {
+	content:"\000A";
+	white-space: pre;
+}
+
+.emphasized {font-weight:bold;}
+
+.characterbio {visibility: visible}
