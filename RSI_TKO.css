@@ -1,0 +1,124 @@
+body {
+	margin-left: 2em;
+	margin-right: 2em;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	margin: 0em;
+	font-family: GillSans, Calibri, Tahoma, Trebuchet, sans-serif;
+	font-size: 1.05em;
+	line-height: 1;
+	font-weight: 400;
+	color: #333;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	background: #f1f4f9;
+	-webkit-font-smoothing: antialiased;
+}
+
+p {
+	margin-bottom: 1em;
+	text-align: left;
+	font-size: 0.9em;
+	line-height: 1.2em;
+}
+
+h3 {
+	font-family: 'Denk One', sans-serif;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 35px;
+	line-height: 35px;
+	position: relative;
+	color: #3D3D3D;
+	padding: 0px 0px 5px 0px;
+}
+
+h2 {
+	text-decoration: underline;
+	padding-bottom: 5px;
+}
+
+a {
+	color: #006600;
+	text-decoration: none;
+	outline: none;
+	text-align: left;
+	font-size: 0.9em;
+	line-height: 1.2em;
+	cursor: auto;
+}
+
+.covercontainer {
+	/*border-style: solid;
+	border-width: 1px;
+	border-color: red;*/
+	width=100%
+}
+
+.cover {
+	border-style: solid;
+	border-width: 15px;
+	border-color: #3e2b14;
+	border-radius: 25px;
+	padding: 10px;
+}
+
+.rsilogo {
+	float: left;
+}
+
+.issueinfotext {
+	border-style: solid;
+	border-width: 1px;
+	border-color: green;
+}
+
+.article {
+	margin: 40px;
+	padding-top: 40px;
+}
+
+.issueinfo {
+	font-family: 'Slabo 27px',serif;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 25px;
+	width: 400px;
+	padding: 20px;
+	margin: 40px;
+}
+
+.center {
+	align: center;
+	text-align: center;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.tkoedition {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+/*NO OTHER CSS BELPW THIS POINT*/
+/* Forces a new page when printing for any element that has this class */
+.newpage, .newpage * {
+	page-break-before: always;
+}
+
+/* Styling for printed pages only */
+.print-only, .print-only * {
+	display: none; /*turns this off when not printing*/
+}
+
+@media print {    
+	.no-print, .no-print * {
+	display: none !important;
+}
+
+.print-only, .print-only * {
+	display: inline;
+}
