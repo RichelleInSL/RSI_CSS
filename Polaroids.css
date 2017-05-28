@@ -50,7 +50,7 @@ ul.polaroids a {
 }
 
 /* Container for the image and paragraph */
-ul.polaroids div {
+div.polaroidcontainer {
 	background: white;
 	border: 1px solid #ddd;
 	border-radius: 4px;
