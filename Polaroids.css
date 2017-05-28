@@ -1,0 +1,131 @@
+.group:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+body {
+	/*
+	background: #FFF8DC
+	*/
+	background: red;
+	/*background-image: linear-gradient(to top right, red, black);*/
+	background-image: url(https://s19.postimg.org/ig44sw37n/wood-bg.jpg);
+	width: 800px;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Holtwood One SC', serif;
+	color: #EAC117; /*#B6B6B4;*/
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+	color: black;
+	font-size: 36pt;
+	
+}
+
+div.ownership {
+	border-style: solid;
+	border-width: 5px 0px 0px 0px;
+	height: 500;
+}
+
+div.roster {
+	border-style: solid;
+	border-width: 5px 0px 0px 0px;
+}
+
+ul.polaroids {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+ }
+
+ul.center {
+	width: 75%;
+	margin: auto;
+	text-align: center;
+}
+
+ul.polaroids a {
+	text-decoration: none;    
+}
+
+/* Container for the image and paragraph */
+ul.polaroids div {
+	background: white;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 10px 10px 0px 10px;
+	width: 153;
+}
+
+
+/* The image inside the polariod */
+ul.polaroids div>img {
+	height: 183px;
+	width: 153px;
+}
+
+/* The paragraph inside the polariod */
+ul.polaroids div>p {
+	margin: 0px;
+}
+
+ul.polaroids div>p.name {
+	text-align: center;
+	font-family: cursive;
+	color: blue;
+	font-size: 12pt;
+}
+
+ul.polaroids div>p.position {
+	text-align: center;
+	font-family: 'Crete Round', serif;
+	font-size: 16pt;
+	background-color: black;
+	color: red;
+}
+
+.award {
+	text-align: center;
+	font-family: 'Permanent Marker', cursive;
+	color: red;
+	font-size: 10pt;
+	background-color: black;
+	border-style: solid;
+	border-color:black;
+}
+
+/* By default, we tilt all our images -2 degrees */
+ul.polaroids li {
+	float: left;
+	list-style-type: none;
+	border-width: 5px;
+	padding: 10px 10px 10px 10px;
+	height: 275;
+}
+
+/* Rotate all even images 2 degrees */
+ul.polaroids li {
+	-webkit-transform: rotate(-2deg);
+	-moz-transform: rotate(-2deg);
+}
+
+/* Rotate all even images 2 degrees */
+ul.polaroids li:nth-child(even) {
+	-webkit-transform: rotate(2deg);
+	-moz-transform: rotate(2deg);
+}
+
+/* Don't rotate every third image, but offset its position */
+ul.polaroids li:nth-child(3n) {
+	-webkit-transform: none;
+	-moz-transform: none;
+	position: relative;
+	top: -5px;
+}
