@@ -105,21 +105,21 @@ ul.polaroids li {
 }
 
 /* Rotate all even images 2 degrees */
-/*ul.polaroids li {
+ul.polaroids li {
 	-webkit-transform: rotate(-2deg);
 	-moz-transform: rotate(-2deg);
-}*/
+}
 
 /* Rotate all even images 2 degrees */
-/*ul.polaroids li:nth-child(even) {
+ul.polaroids li:nth-child(even) {
 	-webkit-transform: rotate(2deg);
 	-moz-transform: rotate(2deg);
-}*/
+}
 
 /* Don't rotate every third image, but offset its position */
-/*ul.polaroids li:nth-child(3n) {
+ul.polaroids li:nth-child(3n) {
 	-webkit-transform: none;
 	-moz-transform: none;
 	position: relative;
 	top: -5px;
-}*/
+}
