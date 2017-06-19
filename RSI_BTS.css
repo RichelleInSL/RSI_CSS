@@ -42,6 +42,10 @@ p {
 	white-space: pre;
 }
 
+.centertext {
+	text-align: center'
+}
+
 .emphasized {font-weight:bold;}
 
 .characterbio {visibility: visible}
