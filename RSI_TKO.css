@@ -76,7 +76,7 @@ a {
 }
 
 .issueinfo {
-	font-family: 'Slabo 27px',serif;
+	font-family: 'Lato', sans-serif;
 	border-style: solid;
 	border-width: 1px;
 	border-radius: 25px;
@@ -84,6 +84,7 @@ a {
 	overflow: hidden;
 	width: 50%;
 	margin: 0 auto;
+	margin-bottom: 20px;
 }
 
 .maginfo {
@@ -112,6 +113,10 @@ a {
 
 .bold {
 	font-weight: bold;
+}
+
+.italic {
+	font-style: italic;
 }
 
 /*NO OTHER CSS BELPW THIS POINT*/
