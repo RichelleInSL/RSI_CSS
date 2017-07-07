@@ -66,8 +66,13 @@ a {
 }
 
 .article {
-	margin: 40px;
-	padding-top: 40px;
+	margin-top: 20px;
+	margin-right: 40px;
+	margin-bottom: 40px;
+	margin-left: 40px;
+	padding: 20px;
+	border: 3px double #8c8b8b;
+	overflow: hidden;
 }
 
 .issueinfo {
@@ -91,10 +96,13 @@ a {
 	margin: 0 auto;
 }
 
-.issueinfo {
-	overflow: hidden;
-	width: 50%;
-	margin: 0 auto;
+.horizontalseparator {
+	margin: 0px 0px 0px 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
 }
 
 .center {
