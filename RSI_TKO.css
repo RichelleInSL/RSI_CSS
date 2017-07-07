@@ -37,6 +37,8 @@ h3 {
 h2 {
 	text-decoration: underline;
 	padding-bottom: 5px;
+	font-size: 28px;
+	line-height: 28px;
 }
 
 a {
@@ -59,29 +61,8 @@ a {
 	cursor: auto;
 }
 
-.covercontainer {
-	/*border-style: solid;
-	border-width: 1px;
-	border-color: red;*/
-	width=100%
-}
-
-.cover {
-	border-style: solid;
-	border-width: 15px;
-	border-color: #3e2b14;
-	border-radius: 25px;
-	padding: 10px;
-}
-
 .rsilogo {
 	float: left;
-}
-
-.issueinfotext {
-	border-style: solid;
-	border-width: 1px;
-	border-color: green;
 }
 
 .article {
@@ -94,9 +75,26 @@ a {
 	border-style: solid;
 	border-width: 1px;
 	border-radius: 25px;
-	width: 600px;
 	padding: 20px;
-	margin: 40px;
+	overflow: hidden;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.maginfo {
+	text-align: center;
+	overflow: hidden;
+}
+
+.tkocover {
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.issueinfo {
+	overflow: hidden;
+	width: 50%;
+	margin: 0 auto;
 }
 
 .center {
@@ -106,11 +104,6 @@ a {
 
 .bold {
 	font-weight: bold;
-}
-
-.tkoedition {
-	font-weight: bold;
-	text-decoration: underline;
 }
 
 /*NO OTHER CSS BELPW THIS POINT*/
