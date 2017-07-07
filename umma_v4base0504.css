@@ -93,6 +93,7 @@ strong{
     font-weight: 600;
 }
 /* Main Style */
+/* Replaced in RSI_TKO.css
 body{
     font-family: GillSans, Calibri, Tahoma, Trebuchet, sans-serif;
     font-size: 1.05em;
@@ -104,6 +105,7 @@ body{
     background:#f1f4f9;
     -webkit-font-smoothing: antialiased;
 }
+*/
 h1,h2,.ct-branding,
 .ct-h-shd,
 .ct-nav-top ul,
@@ -208,10 +210,12 @@ h4{
     padding: 0.8em 0 0.2em;
     text-transform: none;
 }
+/* Replaced in RSI_TKO.css
 h2{
     font-size: 28px;
     line-height: 28px;
 }
+*/
 a,
 a.md-wg-deal-link,
 .ct-box h4 a {
