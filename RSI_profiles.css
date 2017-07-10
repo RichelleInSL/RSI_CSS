@@ -1,0 +1,94 @@
+body {
+	background: #f1f4f9;
+}
+
+.bordered {    
+	background-color: #FFFFFF;
+	border: 1px solid #DDD;
+	padding: 2px;
+}
+
+.clickableimg:hover {
+	background-color: #000000;
+}
+
+.profileimage {
+	float: left;
+	overflow: hidden;
+}
+
+.headshot {
+	width: 300px;
+}
+
+.stats {
+	float: left;
+	overflow: hidden;
+	line-height: 1.25em;
+	padding-left: 3em;
+}
+
+
+.sectionbreak {
+	clear: both;
+	border: 0;
+}
+
+.sectionheader {
+	font-family: 'Carter One', cursive;
+	font-size: 1.75em;
+	margin-bottom: 0em;
+}
+
+.firstparagraph {
+	margin-top: 0;
+}
+
+.thumbnail {
+	width: 100px;
+	margin: 0;
+}
+
+
+.stats {
+}
+
+.statlabel {
+	font-family: 'Racing Sans One', cursive;
+	font-size: 1.25em;
+}
+
+.statvalue {
+	font-family: 'Fira Mono', monospace;
+	font-size: 1.25em;
+	display: inline-block;
+	text-indent: 2em;
+	margin-bottom: 0.5em;
+}
+
+.bio {
+	font-family: 'Droid Serif', serif;
+	font-size: 1.25em;
+	text-align: justify;
+}
+
+.currenttitles {
+	margin-bottom:20px;
+}
+
+.currenttitles>img {
+	display: block;
+}
+
+.photogalleryinstructions {
+	font-family: "Georgia", "serif";		
+	font-size: 0.75em;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.italics {
+	font-style: italics;
+}
