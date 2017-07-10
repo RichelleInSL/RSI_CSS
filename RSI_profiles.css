@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono'); /*stat values*/
+@import url('https://fonts.googleapis.com/css?family=Carter+One'); /*section headers*/
+@import url('https://fonts.googleapis.com/css?family=Racing+Sans+One'); /*stat labels*/
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif'); /*general text*/
+
 body {
 	background: #f1f4f9;
 }
