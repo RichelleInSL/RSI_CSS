@@ -4,7 +4,9 @@
 @import url('https://fonts.googleapis.com/css?family=Droid+Serif'); /*general text*/
 
 body {
+	margin: 2em;
 	background: #f1f4f9;
+	font-size: 12pt;
 }
 
 .bordered {    
@@ -15,6 +17,10 @@ body {
 
 .clickableimg:hover {
 	background-color: #000000;
+}
+
+.profilenameplate {
+	margin-bottom: 1.5em;
 }
 
 .profileimage {
@@ -29,10 +35,9 @@ body {
 .stats {
 	float: left;
 	overflow: hidden;
-	line-height: 1.25em;
+	line-height: 1.35em;
 	padding-left: 3em;
 }
-
 
 .sectionbreak {
 	clear: both;
@@ -68,7 +73,12 @@ body {
 	font-size: 1.25em;
 	display: inline-block;
 	text-indent: 2em;
-	margin-bottom: 0.5em;
+	margin-bottom: 0;
+}
+
+.fightername {
+	color: red;
+	font-weight:bold;
 }
 
 .bio {
