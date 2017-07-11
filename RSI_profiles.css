@@ -10,8 +10,14 @@ body {
 }
 
 .bordered {    
-	background-color: #FFFFFF;
+	background-color: #FFF;
 	border: 1px solid #DDD;
+	padding: 3px;
+}
+
+.clearborder {    
+	background-color: transparent;
+	border: 0px;
 	padding: 2px;
 }
 
@@ -29,6 +35,11 @@ body {
 }
 
 .headshot {
+	width: 300px;
+}
+
+.managementposition {
+	margin: auto;
 	width: 300px;
 }
 
