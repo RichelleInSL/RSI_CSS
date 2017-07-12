@@ -108,6 +108,11 @@ a {
 	margin: 0 auto;
 }
 
+.tkocovercaption {
+	overflow: hidden;
+	margin: 0 auto;
+}
+
 .horizontalseparator {
 	margin: 0px 0px 0px 0px;
 	padding-top: 20px;
