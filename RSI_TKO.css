@@ -25,6 +25,10 @@ p {
 	line-height: 1.35em;
 }
 
+.coverimage:hover {
+	background-color: #000000;
+}
+
 h3 {
 	font-family: 'Denk One', sans-serif;
 	text-transform: uppercase;
