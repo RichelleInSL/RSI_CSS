@@ -26,6 +26,7 @@ p {
 }
 
 .coverimage:hover {
+	background-color: #848482;
 	opacity: 1;
 }
 
