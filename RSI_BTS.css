@@ -1,32 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Gentium+Book+Basic'); /*main text*/
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black'); /*chapter titles*/
+
 p {
-	font-family: 'Georgia', serif; /*'Gentium Book Basic', serif;*/
+	font-family: 'Gentium Book Basic', serif; /*'Georgia', serif;*/
 	text-align: justify;
 }
 
 .chapter {
-	font-family: 'Impact', 'Charcoal', sans-serif; /*'Archivo Black', sans-serif;*/
+	font-family: 'Archivo Black', sans-serif; /*'Impact', 'Charcoal', sans-serif;*/
 	text-align:center;
 }
 
 .dateline {
 	font-size: 1.25em;
 	font-style:italic;
-}
-
-.chapterheader {
-	position: relative;
-}
-
-.booknumber {
-	position: absolute;
-	text-align: left;
-	font-family: 'Fira Sans', sans-serif;
-}
-
-.booktitle {
-	position: relative;
-	text-align: right;
-	font-family: 'Fira Sans', sans-serif;
 }
 
 .chapterbook {
@@ -43,7 +30,7 @@ p {
 }
 
 .centertext {
-	text-align: center'
+	text-align: center;
 }
 
 .emphasized {font-weight:bold;}
