@@ -27,6 +27,7 @@ p {
 
 .coverimage:hover {
 	background-color: #000000;
+	opacity: 1;
 }
 
 .coverimagelink:hover {
