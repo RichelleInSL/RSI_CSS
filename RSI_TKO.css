@@ -25,6 +25,28 @@ p {
 	line-height: 1.35em;
 }
 
+.bordered {    
+	background-color: #FFF;
+	border: 1px solid #DDD;
+	padding: 3px;
+}
+
+img.left, img.right {
+	margin:0;
+	max-width: 100%;
+	height: auto;
+}
+
+img.left {
+	float: left;
+	margin: 0 1.5em 1em 0;
+}
+
+img.right {
+	float: right;
+	margin: 0 0 1em 1.5em;
+}
+
 .coverimage:hover {
 	background-color: #848482;
 	opacity: 1;
@@ -33,6 +55,10 @@ p {
 .coverimagelink:hover {
 	opacity: 1;
 }
+
+h1, h2, h3, h4 {
+	margin: 0;
+)
 
 h3 {
 	font-family: 'Denk One', sans-serif;
