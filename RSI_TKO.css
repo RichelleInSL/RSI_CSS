@@ -51,6 +51,10 @@ img.right {
 	margin: 0 0 1em 1.5em;
 }
 
+.coverimage {
+	max-width: 750px;
+}
+
 .coverimage:hover {
 	background-color: #000000;
 	border-color: #000000;
@@ -133,6 +137,7 @@ a {
 	padding: 1em;
 	overflow: hidden;
 	width: 50%;
+	max-width: 750px;
 	margin: 0 auto;
 	margin-bottom: 20px;
 	background: #c3d9ff; /* Old browsers */
