@@ -152,6 +152,14 @@ a {
 	margin: 0;
 }
 
+.issuelabel {
+	font-family: 'Racing Sans One', cursive;
+}
+
+.issuenumber, .issuedata, .issuedate, .franchise, .eventname, .arena {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
 .maginfo {
 	text-align: center;
 	overflow: hidden;
