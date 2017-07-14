@@ -33,6 +33,10 @@ p {
 	text-align: center;
 }
 
-.emphasized {font-weight:bold;}
+.bold, .emphasized {
+	font-weight:bold;
+}
 
-.characterbio {visibility: visible}
+.characterbio {
+	visibility: visible
+}
