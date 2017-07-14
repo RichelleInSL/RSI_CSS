@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Gentium+Book+Basic'); /*main text*/
-@import url('https://fonts.googleapis.com/css?family=Archivo+Black'); /*chapter titles*/
+@import url('https://fonts.googleapis.com/css?family=Gentium+Book+Basic'); /* main text */
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black'); /* chapter titles */
 
 p {
-	font-family: 'Gentium Book Basic', serif; /*'Georgia', serif;*/
+	font-family: 'Gentium Book Basic', 'Georgia', serif;
 	text-align: justify;
 }
 
 .chapter {
-	font-family: 'Archivo Black', sans-serif; /*'Impact', 'Charcoal', sans-serif;*/
+	font-family: 'Archivo Black', 'Impact', 'Charcoal', sans-serif;
 	text-align:center;
 }
 
