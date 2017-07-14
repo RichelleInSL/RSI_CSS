@@ -3,6 +3,7 @@
 
 p {
 	font-family: 'Gentium Book Basic', 'Georgia', serif;
+	font-size: 1.25em; /*DA size 4 or 5*/
 	text-align: justify;
 }
 
@@ -42,5 +43,5 @@ p {
 }
 
 .characterbio {
-	visibility: visible
+	visibility: visible;
 }
