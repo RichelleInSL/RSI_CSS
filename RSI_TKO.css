@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Lato'); /*main article, issue info*/
-@import url('https://fonts.googleapis.com/css?family=Denk+One'); /*h3, h4, other*/
+@import url('https://fonts.googleapis.com/css?family=Lato'); /* main article, issue info */
+@import url('https://fonts.googleapis.com/css?family=Denk+One'); /* h3, h4, other */
+@import url('https://fonts.googleapis.com/css?family=Racing+Sans+One'); /* issue info labels */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed'); /* issue info data */
 
 body {
 	margin-left: 2em;
