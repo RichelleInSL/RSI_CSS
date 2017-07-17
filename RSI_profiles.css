@@ -17,6 +17,14 @@ body {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=1 );
 }
 
+.fullprofile {
+	margin: 1em;
+	padding: 2em;
+	border: 5px outset #B6B6B4;
+	overflow: hidden;
+	background-image: url(https://s19.postimg.org/kaonnc0qr/tile_background.jpg); background-repeat: repeat;
+}
+
 .bordered {    
 	background-color: #FFF;
 	border: 1px solid #DDD;
