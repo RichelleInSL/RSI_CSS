@@ -18,12 +18,13 @@ body {
 }
 
 .fullprofile {
-	margin: 1em;
+	margin: 4em;
 	padding: 2em;
 	border: 5px outset #B6B6B4;
 	overflow: hidden;
 	background-image: url(https://s19.postimg.org/kaonnc0qr/tile_background.jpg); background-repeat: repeat;
 }
+
 
 .bordered {    
 	background-color: #FFF;
