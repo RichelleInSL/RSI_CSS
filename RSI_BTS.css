@@ -87,3 +87,9 @@ p {
 .bioinfo {
 	font-family: 'Roboto Condensed', sans-serif;
 }
+
+.bordered {    
+	background-color: #FFF;
+	border: 1px solid #DDD;
+	padding: 3px;
+}
