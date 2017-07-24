@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Gentium+Book+Basic'); /* main text */
 @import url('https://fonts.googleapis.com/css?family=Archivo+Black'); /* chapter titles */
+@import url('https://fonts.googleapis.com/css?family=Racing+Sans+One'); /* Bio labels */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed'); /* Bio info */
 
 body {
 	-webkit-font-smoothing: antialiased;	
@@ -76,4 +78,12 @@ p {
 
 .characterbio {
 	visibility: visible;
+}
+
+.biolabel {
+	font-family: 'Racing Sans One', cursive;
+}
+
+.bioinfo {
+	font-family: 'Roboto Condensed', sans-serif;
 }
