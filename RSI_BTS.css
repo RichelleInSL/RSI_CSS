@@ -80,6 +80,16 @@ p {
 	visibility: visible;
 }
 
+.bioimage:hover {
+	background-color: #000000;
+	border-color: #000000;
+	opacity: 1;
+}
+
+.bioimagelink:hover {
+	opacity: 1;
+}
+
 .biolabel {
 	font-family: 'Racing Sans One', cursive;
 }
