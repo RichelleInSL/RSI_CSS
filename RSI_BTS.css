@@ -16,23 +16,52 @@ body {
 }
 
 .innerbody {
-	width: 80%;
+	width: 00%;
 	margin:auto;
 	margin-top:4em;
 	margin-bottom: 4em;
-	padding: 2em;
-	padding-top:0;
+	padding: 0;
 	border: 5px outset #B6B6B4;
 	overflow: hidden;
 	background: #F2FFED;
 	background-image: url(https://s19.postimg.org/kaonnc0qr/tile_background.jpg); background-repeat: repeat;
 }
 
+.authorsnote, .chaptertext, .characterreference {
+	padding: 2em;
+	padding-top: .35em;
+	padding-bottom: .35em;
+}
+
+.characterreference {
+	font-family: 'Archivo Black', 'Impact', 'Charcoal', sans-serif;
+	text-align:center;
+}
+
+
 hr.sectionbreak {
 	border: 0;
-	height: 1px;
-	background: #333;
-	background-image: linear-gradient(to right, #ccc, #333, #ccc);
+	height: 0;
+	box-shadow: 0 0 10px 1px black;
+}
+
+.storyheader {
+	font-family: 'Gentium Book Basic', 'Georgia', serif;
+	font-size: .75em;
+	color: #666362;
+	padding: .5em;
+}
+
+.storynumber {
+	float: left;
+}
+
+.storyname {
+	float: right;
+}
+
+.hidden {
+	visibility: hidden;
 }
 
 p {
