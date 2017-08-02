@@ -105,17 +105,27 @@ p {
 	font-style: italic;
 }
 
+.storyimagecontainer {
+	margin: auto;
+	width: 80%;
+}
+
+.storyimage {
+	max-width: 100%;
+	max-height: 100%;
+}
+
 .characterbio {
 	visibility: visible;
 }
 
-.bioimage:hover {
+.bioimage:hover, .storyimage:hover {
 	background-color: #000000;
 	border-color: #000000;
 	opacity: 1;
 }
 
-.bioimagelink:hover {
+.bioimagelink:hover, .storyimagelink:hover {
 	opacity: 1;
 }
 
