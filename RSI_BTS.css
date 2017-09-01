@@ -70,6 +70,12 @@ p {
 	text-align: justify;
 }
 
+.youtubeplayer {
+	height: 75;
+	width: 600;
+	border: 0;
+}
+
 .chapter {
 	font-family: 'Archivo Black', 'Impact', 'Charcoal', sans-serif;
 	text-align:center;
