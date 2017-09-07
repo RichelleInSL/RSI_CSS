@@ -163,3 +163,10 @@ p {
 .bioimage {
 	width: 100px;
 }
+
+.blockquotation {
+	font-family: "Lucida Console";
+	display: inline-block;
+	margin-left:70px;
+	margin-right:70px;
+}
