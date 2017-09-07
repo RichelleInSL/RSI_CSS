@@ -98,7 +98,12 @@ p {
 	font-size: 1.25em;
 }
 
-.break:after {
+.break:after, .breakafter:after {
+	content:"\000A";
+	white-space: pre;
+}
+
+.breakbefore:before {
 	content:"\000A";
 	white-space: pre;
 }
