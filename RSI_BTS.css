@@ -111,7 +111,7 @@ p {
 	font-weight: bold;
 }
 
-.italic {
+.italic, .italics, .pastscene {
 	font-style: italic;
 }
 
