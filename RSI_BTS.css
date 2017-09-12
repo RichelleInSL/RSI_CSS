@@ -29,7 +29,7 @@ body {
 	background-image: url(https://s19.postimg.org/kaonnc0qr/tile_background.jpg); background-repeat: repeat;
 }
 
-.authorsnote, .chaptertext, .characterreference {
+.authorsnote, .chaptertext, .characterreference, .siteindex {
 	padding: 2em;
 	padding-top: .35em;
 	padding-bottom: .35em;
