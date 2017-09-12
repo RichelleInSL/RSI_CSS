@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Gentium+Book+Basic');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black');
+@import url('https://fonts.googleapis.com/css?family=Racing+Sans+One');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+.tkotable {
+  border: 1px solid black;
+  table-layout: fixed;
+  width: 60%
+}
+
+.tkoedition, .tkoeventdate, .tkofranchise, .tkoeventname {
+  text-align: center;
+}
+
+.tkoedition {
+  width: 10%
+}
+
+.tkoeventdate {
+  width: 20%
+}
+
+.tkofranchise {
+  width: 25%
+}
+
+.tkoeventname {
+  width: 45%
+}
+
+.siteindextitle {
+  font-family:'Archivo Black', sans-serif;
+  font-size: 3em;
+  text-align: center;
+ }
+ 
+.siteindexsectiontitle {
+  font-family:'Archivo Black', sans-serif;
+  font-size: 2em;
+} 
