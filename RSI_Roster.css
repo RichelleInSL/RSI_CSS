@@ -1,0 +1,101 @@
+.rosterinnerbody {
+	width: 90%;
+	margin:auto;
+	margin-top:4em;
+	margin-bottom: 4em;
+	padding: 0;
+	border: 5px outset #B6B6B4;
+	overflow: hidden;
+	background: #F2FFED;
+	background-image: url(https://s19.postimg.org/ig44sw37n/wood-bg.jpg); background-repeat: repeat;
+}
+
+.rampagesportslogo {
+	font-family: 'Frijole', cursive;
+	font-size: 5em;
+	background: -webkit-linear-gradient(left, #C11B17 , black);
+	background: -o-linear-gradient(right, #C11B17, black);
+	background: -moz-linear-gradient(right, #C11B17, black);
+	background: linear-gradient(to right, #C11B17 , black); 
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.sectionheader {
+	font-family: 'Titan One', cursive;
+	font-size: 2em;
+	background-color: black;
+	color: white;
+}
+
+.sectiontitle {
+	margin-left: 5%;
+}
+
+.titlesection {
+	text-align:left;
+	margin-left: 2.5%
+}
+
+.gallerycontainer {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.galleryitem {
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 0.62em;
+	float: left;
+
+	width: 16%;
+	margin:  2% 2% 50px 2%;	
+}
+
+.managementitem {
+	font-size: 0.75em;
+	width: 24%;
+}
+
+.galleryitem h3 {
+	font-weight: bold;
+	color: #800517;
+	margin-bottom: 0px;
+}
+
+.galleryitem p {
+	text-align: left;
+	margin-top: 0px;
+	color: #000000;
+}
+
+.galleryitem img {
+	max-width: 100%;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.upcase {
+	text-transform: uppercase;
+}
+
+.linkedimage:hover {
+	background-color: #000000;
+	border-color: #000000;
+	opacity: 1;
+}
+
+.bioimagelink:hover, .storyimagelink:hover {
+	opacity: 1;
+}
+
+.bordered {    
+	background-color: #B6B6B4;
+	border: 1px solid #B6B6B4;
+	padding: 3px;
+}
+
+.highlight {
+	color: #C11B17;
+}
