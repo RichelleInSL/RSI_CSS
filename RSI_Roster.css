@@ -132,8 +132,12 @@ body {
 }
 
 .linkedimage:hover {
-	background-color: #0020C2;
-	border-color: #0020C2;
+	background-color: #79BAEC;
+	border-color: #79BAEC;
+	opacity: 1;
+}
+
+.linkedimage:hover {
 	opacity: 1;
 }
 
